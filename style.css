@@ -1,0 +1,33 @@
+
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo, ul {
+    font-family: roboto, Arial;
+    color: #F9FAF8;
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
