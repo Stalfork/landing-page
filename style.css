@@ -26,7 +26,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items: space-around;
     gap: 20px;
     font-size: 16px;
 }
@@ -45,6 +45,7 @@ a {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
+    flex-flow: row nowrap;
     padding: 70px 110px;
     gap: 30px;
 }
@@ -67,7 +68,7 @@ a {
 .place-holder {
     color: #F9FAF8;
     display: flex;
-    flex: 1;
+    flex: 1 1 40px;
     background: #666666;
     padding: 0;
     margin: 0;
@@ -87,6 +88,7 @@ button.cont {
     display: flex;
     flex-flow: column wrap;
     align-items: stretch;
+    margin-bottom: 30px;
 }
 
 .title {
@@ -120,7 +122,28 @@ button.cont {
     text-align: center;
 }
 
+ .quote-container {
+     display: flex;
+     flex-flow: column nowrap;
+     align-items: center;
+     background: #E5E7EB;
+     padding: 70px;
+ }
 
+ .quote-text, .sign {
+     background: ;
+     text-align: center;
+     width: 500px;
+     font-style: italic;
+     font-size: 20px;
+     width: 700px;
+ }
+
+ .sign {
+    text-align:end;
+    font-style: normal;
+    font-weight: bolder;
+}
 
 
 
