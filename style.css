@@ -47,7 +47,8 @@ a {
     display: flex;
     flex-flow: row nowrap;
     padding: 70px 110px;
-    gap: 30px;
+    gap: px;
+    justify-content: center;
 }
 
 .hero-header {
@@ -60,17 +61,16 @@ a {
 }
 
 .cont {
-    width: atuo;
+    width: auto;
     margin: 0;
     padding: 0;
 }
 
-.place-holder {
-    color: #F9FAF8;
+.frog-image {
     display: flex;
     flex: 1 1 40px;
-    background: #666666;
     padding: 0;
+    width: 400px;
     margin: 0;
     justify-content: center;
     align-items: center;
@@ -82,6 +82,7 @@ button.cont {
     border-radius: 5px;
     border: none;
     padding: 5px 15px;
+    font-weight: bolder;
 }
 
 .random {
@@ -132,11 +133,16 @@ button.cont {
 
  .quote-text, .sign {
      background: ;
-     text-align: center;
+     text-align:left;
      width: 500px;
      font-style: italic;
      font-size: 20px;
      width: 700px;
+     padding: 0;
+     margin: 5px;;
+ }
+ .quote-text {
+     font-size: 28px;
  }
 
  .sign {
@@ -145,5 +151,67 @@ button.cont {
     font-weight: bolder;
 }
 
+.signup {
+    background: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    width: 600px;
+    background: #3882F6;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.call-to {
+    background:3882F6;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+
+.signup-text1, .signup-text2 {
+    margin:0;
+    padding: 0;
+    color:#F9FAF8
+}
+
+.signup-text1 {
+    margin: 0;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.signup-text2 {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.signup-btn {
+    margin: 0;
+    color: #F9FAF8;
+    background: #3882F6;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    padding: 5px 25px;
+    font-weight: bolder;
+}
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+h5 {
+    color: #F9FAF8;
+}
 
 
